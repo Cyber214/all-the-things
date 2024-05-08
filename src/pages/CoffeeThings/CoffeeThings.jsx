@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const CoffeeThings = (props) => {
   return (
     <>
-      <h1>Kibr's Things</h1>
+      <h1>Kibra's Things</h1>
       <Link to="/">Home</Link>
 
       {props.things.map((thing, idx) => 
